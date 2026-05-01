@@ -1,4 +1,5 @@
 # shelly3em-exporter
+```
 Prometheus exporter for Shelly 3EM energy meter
 
 Scrapes /status and /emeter/0..2 endpoints and exposes metrics
@@ -14,3 +15,4 @@ Environment variables (alternative to CLI args):
     SHELLY_USER     Username for HTTP basic auth (optional)
     SHELLY_PASS     Password for HTTP basic auth (optional)
     EXPORTER_PORT   Port to expose metrics on (default: 9924)
+```
